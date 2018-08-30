@@ -1,0 +1,45 @@
+body{
+    background-color: rgb(43,40,40);
+}
+
+.jumbotron{
+  
+    background-image: url("images/background.jpg")
+}
+h1{
+    color: white;
+    font-weight: bolder;
+    text-align: center;
+}
+h5{
+    text-align: center;
+}
+
+p{
+    color: white;
+    text-align: center;
+}
+.collapse{
+    text-align: center;
+}
+
+.card-title{
+    bottom: 10px;
+    text-align: center;
+
+}
+.card-text{
+    color: rgb(43, 40, 40);
+}
+
+.card-img-top{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+@media (min-width: 768px){
+    .card-img-top{
+        width: 60%;
+    }
+}
